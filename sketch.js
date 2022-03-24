@@ -99,22 +99,22 @@ function controlVelocity(){
   player.velocityY = velocityY;
 
   if(keyDown("left_arrow")){
-    velocityX = -5;
+    velocityX = -10;
     velocityY = 0;
 
   }
   if(keyDown("right_arrow")){
-    velocityX = 5;
+    velocityX = 10;
     velocityY = 0;
 
   }
   if(keyDown("up_arrow")){
-    velocityY = -5;
+    velocityY = -10;
     velocityX = 0;
 
   }
   if(keyDown("down_arrow")){
-    velocityY = 5;
+    velocityY = 10;
     velocityX = 0;
 
   }
